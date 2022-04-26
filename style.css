@@ -1,0 +1,16 @@
+header {
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+}
+
+.sticky {
+    position: relative;
+    width: 100%;
+    top: 0;
+    background-color: gray;
+}
+
+.nav-link {
+    display: inline-flex;
+}
