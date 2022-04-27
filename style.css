@@ -1,6 +1,13 @@
-header {
+body {
+    background-color: bisque;
+}
+
+.sticky {
+    position: relative;
     width: 100%;
-    font-size: 30px;
+    top: 0;
+    background-color: black;
+    padding: 30px;
 }
 
 li {
@@ -8,21 +15,11 @@ li {
     font-size: 40px;
     display: inline;
     align-items: flex-start;
-    background-color: red;
+    background-color: grey;
+    padding: 30px;
+    margin: 0 100px 0 100px;
 }
 
 ul {
     text-align: center;
-    color: green;
-}
-
-.sticky {
-    position: relative;
-    width: 100%;
-    top: 0;
-    background-color: gray;
-}
-
-.nav-link {
-    display: inline-flex;
 }
