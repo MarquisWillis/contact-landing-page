@@ -1,7 +1,19 @@
 header {
-    display: flex;
-    text-align: center;
+    width: 100%;
     font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+    font-size: 40px;
+    display: inline;
+    align-items: flex-start;
+    background-color: red;
+}
+
+ul {
+    text-align: center;
+    color: green;
 }
 
 .sticky {
