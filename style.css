@@ -18,8 +18,8 @@ ul {
 }
 
 footer {
-    display: flex;
-    align-items: center;
+    display: flexbox;
+    text-align: center;
 }
 
 .sticky {
