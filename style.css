@@ -3,6 +3,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+section {
+    padding: 20px;
+}
+
+ul {
+    text-align: center;
+}
+
 li {
     list-style-type: none;
     font-size: 40px;
@@ -11,10 +19,6 @@ li {
     background-color: grey;
     padding: 30px;
     margin: 0 100px 0 100px;
-}
-
-ul {
-    text-align: center;
 }
 
 footer {
@@ -31,7 +35,7 @@ footer {
 }
 
 .sticky + .content {
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
 #button {
