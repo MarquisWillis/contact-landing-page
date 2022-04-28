@@ -17,8 +17,9 @@ ul {
     text-align: center;
 }
 
-form fieldset p button {
-    background-color: grey;
+footer {
+    display: flex;
+    align-items: center;
 }
 
 .sticky {
@@ -27,4 +28,8 @@ form fieldset p button {
     top: 0;
     background-color: black;
     padding: 30px;
+}
+
+#button {
+    background-color: grey;
 }
