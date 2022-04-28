@@ -23,11 +23,15 @@ footer {
 }
 
 .sticky {
-    position: relative;
+    position: fixed;
     width: 100%;
     top: 0;
     background-color: black;
     padding: 30px;
+}
+
+.sticky + .content {
+    padding-top: 10px;
 }
 
 #button {
